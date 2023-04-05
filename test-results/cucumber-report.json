@@ -1,0 +1,763 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-the--customer-details-test;add-product-details",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Add Product details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2849775600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "User enter the username as \"standard_user\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123742199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User enter the password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206550400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328925200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User add product to cart",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3631319499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click shopping cart link",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519887499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should redirect to Your cart page",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 527959800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click the Checkout Button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2050245900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User enter First_name as \"virat\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36841300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User enter Last_name as \"kohli\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22908799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User enter postal_code as \"MSMSMSMS\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24344499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User click continue button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1500638500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User is redirected to Payment and Shipping information page",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 524322999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User click Finish",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2533750599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User check the message \"Thank you for your order!\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6055199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User click back home button to add another product",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2581424600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User add another product to cart",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4056477399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User click shopping cart link",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534126100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User should redirect to Your cart page",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510877499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User click the Checkout Button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2088668799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "User enter First_name as \"virat\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19512799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User enter Last_name as \"kohli\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23689099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User enter postal_code as \"MSMSMSMS\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29785100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User click continue button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515803500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User is redirected to Payment and Shipping information page",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 513057600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User click Finish",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1551073399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User check the message \"Thank you for your order!\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3739999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Close the browser",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 679765799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-the--customer-details-test;add-product-details",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Add Product details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2494853299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "User enter the username as \"standard_user\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107019899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User enter the password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28050899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224736400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User add product to cart",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2570541400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click shopping cart link",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97861099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should redirect to Your cart page",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512660799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click the Checkout Button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 610633299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User enter First_name as \"sachin\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30653899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User enter Last_name as \"tendulkar\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31618799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User enter postal_code as \"M43MDS\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30317599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User click continue button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 587559200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User is redirected to Payment and Shipping information page",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519672900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User click Finish",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 604196499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User check the message \"Thank you for your order!\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5967399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User click back home button to add another product",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1112015500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User add another product to cart",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4090445000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User click shopping cart link",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1537460600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User should redirect to Your cart page",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514103799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User click the Checkout Button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2088153899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "User enter First_name as \"sachin\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17984999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User enter Last_name as \"tendulkar\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21946999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User enter postal_code as \"M43MDS\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19745000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User click continue button",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1575925899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User is redirected to Payment and Shipping information page",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 527949699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User click Finish",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2542264500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User check the message \"Thank you for your order!\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7120899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Close the browser",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292563600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-the--customer-details-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add the  customer details test",
+    "tags": [],
+    "uri": "src\\test\\features\\checkoutComplete.feature"
+  }
+]
